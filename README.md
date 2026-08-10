@@ -1,2 +1,15 @@
-# -
-針對 momo 購物平台筆電資料進行爬蟲、清洗與機器學習分析，共取得 1,160 筆有效資料。使用 Regex 解析螢幕解析度與 SSD 容量，完成解析度特徵工程，並完成 IQR 離群值處理、One-Hot Encoding 與標準化。比較 Linear Regression、KNN、Decision Tree 三種模型，Linear Regression 表現最佳，R² = 0.876、MAE = 4,617 元。
+# 筆電價格預測分析
+
+針對 momo 購物平台筆電資料進行爬蟲、清洗與機器學習分析，共取得 1,160 筆有效資料。
+
+## 📊 簡報專案
+* **線上查看**：[點此瀏覽 PDF 簡報](./筆電價格預測分析.pdf)
+
+## 🛠️ 技術重點
+* **資料處理**：使用 Regex 解析螢幕解析度與 SSD 容量，完成解析度特徵工程。
+* **資料清洗**：完成 IQR 離群值處理、One-Hot Encoding 與標準化。
+* **模型評估**：比較 Linear Regression、KNN、Decision Tree 三種模型。
+
+## 📈 分析結果
+* **最佳模型**：Linear Regression
+* **成效指標**：$R^2 = 0.876$、$\text{MAE} = 4,617$ 元
