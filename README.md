@@ -7,7 +7,7 @@
 
 ## 🛠️ 技術重點
 * **資料處理**：使用 Regex 解析螢幕解析度與 SSD 容量，完成解析度特徵工程。
-* **資料清洗**：完成 IQR 離群值處理、One-Hot Encoding 與標準化。
+* **資料清洗**：完成 IQR 離群值處理、One-Hot Encoding。
 * **模型評估**：比較 Linear Regression、KNN、Decision Tree 三種模型。
 
 ## 📈 分析結果
